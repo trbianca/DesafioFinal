@@ -9,9 +9,14 @@
 
 .container-mae{
   max-width: 1920px;
-  /*max-height: 6192px; */
   margin:0 auto;
   overflow: hidden;
+}
+
+.container-menu{
+  background-color: red;
+  height: 70px;
+  display: none;
 }
 
 .logo{
@@ -28,13 +33,13 @@ header{
   flex-direction: row;
   align-items: center;
   width: 100%;
-  height: 50px;
+  height: 70px;
  background-color:white;
  /* opacity: 50%; */
 }
 
 .container-header{
-  background-color: pink;
+/*  background-color: pink; */
   width: 60vw;
   height: 3vh;
  /* margin-left:; */
@@ -45,12 +50,28 @@ header{
   display:flex;
   justify-content: space-evenly;
   list-style: none;
-  font-family: 'Montserrat', sans-serif;
-  color: #9767A9;
-  font-size: 1em;
   width: 60vw;
   height: 3vh;
+  
 /* background-color:wheat; */
+}
+
+/*#container-li li{
+  list-style: none;
+} */
+
+#container-li a{
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  color: #9767A9;
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#container-li a:hover{
+  font-weight: bold;
+  color: rgb(67, 28, 78);
 }
 
 .container-redes-sociais{
@@ -59,14 +80,14 @@ header{
   padding-right: 3%;
   /*width: 20vw;*/
   display: flex;
-  height: 50%;
+  height: 5vh;
  /* margin-top: 15px; */
   
 }
 
-nav{
+#nav{
  /* background-color:red; */
-  opacity: 50%; 
+ /* opacity: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,7 +102,7 @@ nav{
   border-radius: 50px;
   border-color: #9767A9;
   width: 10vw;
-  height: 80%;
+  height: 5vh;
 }
 
 .imagem-buscar{
@@ -118,7 +139,7 @@ main{
 
 .container-inicial-body{
  background-image:url(Assets/imagemBody.png);
- background-size: 100%;
+ background-size: cover;
  background-repeat:no-repeat;
  background-position:center;
  width: 100%;
@@ -228,7 +249,7 @@ h1{
 
 .conteiner-passos-texto{
   width: 80%;
-  height: 300px;
+  height: 50vh;
   background-color: #9767A9;
   color:white;
   padding: 15px;
@@ -494,3 +515,131 @@ margin-left: 100px;
   width: 20%;
   height: 40px;
 }
+
+
+
+
+/* inicio mobile */
+
+
+/*HEADER*/
+
+@media (max-width: 1075px){
+  #container-li a{
+    font-size: 0.8em;
+  }
+
+  header{
+    width: 100%;
+    height: 70px;
+   /* opacity: 50%; */
+  }
+  
+  /*main{
+    padding-top: 30px; 
+   } */
+}
+
+@media(max-width: 920px){
+  #container-li a{
+    font-size: 0.7em;
+  }
+
+  .container-redes-sociais{
+     height: 4vh;    
+   }
+
+   .logo{
+    height: 5vh;
+  }
+}
+
+@media(max-width: 800px){
+#nav{
+/* background-color: red; */
+font-size: 0.8em;
+}
+
+.container-redes-sociais{
+  height: 3vh;    
+}
+
+.logo{
+ height: 4vh;
+}
+
+}
+
+@media(max-width: 760px){
+  .container-menu{
+    background-color: red;
+    height: 70px;
+    display: flex;
+  }
+
+  .container-list{
+     display: none;
+   }
+
+   .container-buscar{
+      display: none;
+    }
+
+    .container-redes-sociais{
+      display: none;
+    }
+
+    .logo{
+      height: 8vh;
+      width: 11vw;
+      padding-left: 0%;
+      position: relative;
+      left: 35%;
+    /*  background-color: black; */
+    }
+
+    #nav.ativei .container-list{
+      display: flex;
+      background-color:#9767A9;
+      position: absolute;
+      left: 0;
+      top: 70px;
+      flex-direction: column;
+      height: 250px;
+      width: 160px;
+      opacity: 1;
+      z-index:999;
+    }
+
+    #container-li a{
+      font-family: 'Montserrat', sans-serif;
+      list-style: none;
+      color:white;
+      font-size: 1em;
+      text-decoration: none;
+      font-weight: 400;
+      margin-left: 10%;
+    }
+
+    span{
+      display: none;
+    }
+}
+
+@media(max-width: 500px){
+  .logo{
+    width: 14vw;
+    height: 8vh;
+  }
+}
+
+@media(max-width: 375px){
+  .logo{
+    width: 18vw;
+    height: 8vh;
+    position: relative;
+    left: 30%;
+  }
+}
+
+/*MAIN - SECTION CONTAINER-INICIAL-BODY*/
