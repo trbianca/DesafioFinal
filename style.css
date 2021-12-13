@@ -299,7 +299,7 @@ h1{
 
 .conteiner-passos-texto-terceiro{
   width: 80%;
-  height: 250px;
+  height: 200px;
   background-color: #9767A9;
   color:white;
   padding: 15px;
@@ -318,7 +318,7 @@ h1{
 
 .conteiner-passos-texto-quarto{
   width: 80%;
-  height: 220px;
+  height: 240px;
   background-color: #9767A9;
   color:white;
   padding: 15px;
@@ -332,7 +332,7 @@ h1{
   height: 800px;
  /* background-color: yellow; */
   position: relative;
-  bottom: 180px;
+  bottom: 250px;
 }
 
 .conteiner-passos-texto-quinto{
@@ -381,7 +381,7 @@ h1{
   padding: 15px;
   margin: auto;
   position: relative;
-  bottom: 120px;
+  bottom: 90px;
 }
 
 .container-passos-final{
@@ -939,4 +939,534 @@ font-size: 0.8em;
     height: 275px;
     width: 40%;
   }
+}
+
+@media(max-width: 630px){
+  .container-secundario-body{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .h2-container{
+    width: 80%;
+    height: 90px;
+   /* background-color: orange; */
+    font-size: 1em;
+    position: relative;
+  }
+
+  .paragrafo-segundo-body{
+    width: 80%;
+    height: 190px;
+   /* background-color:violet; */
+    color: white;
+    font-size: 0,5em;
+    padding-left: 2%; 
+    padding-top: 2%; 
+  }
+  
+}
+
+@media(max-width: 460px){
+  .container-secundario-body{
+    height: 350px;
+  }
+
+  .h2-container{
+    height: 100px; 
+    font-size: 1em;
+  }
+
+  .paragrafo-segundo-body{
+    height: 235px;
+    font-size: 0,4em;
+  }
+}
+
+@media(max-width:380px){
+  .container-secundario-body{
+    height: 370px;
+  }
+
+  .h2-container{
+    height: 100px; 
+    font-size: 0.9em;
+  }
+
+  .paragrafo-segundo-body{
+    height: 260px;
+    font-size: 0,3em;
+  }
+}
+
+/*BODY CONTAINER-PASSOS, CONTAINER-IMAGENS-COLUNAS e CONTAINER-FOOTER*/
+@media(max-width:1075px){
+
+  /*CONTAINER-PASSOS*/
+
+  .container-passos{
+    background-color: #40E0D0; 
+    height:2100px;
+  }
+
+  .coluna-passos{
+    background-color: #00BFFF; 
+    height:2100px;
+  }
+
+  .imagem-passos{
+    width: 100%;
+    height: 45%;
+  }
+
+  .h3-container{
+    font-size: 1.4em;
+  }
+
+  .container-passos-paragrafo{
+    font-size: 0.7em;
+  }
+
+   /*bottons*/
+
+   .container-passos-terceiro{
+    bottom: 300px;
+  }
+
+  .container-passos-quarto{
+    top:0px;
+  }
+
+  .container-passos-quinto{
+    bottom: 550px;
+  }
+  .container-passos-sexto{
+    bottom: 300px;
+  }
+  .container-passos-setimo{
+    bottom: 780px;
+  }
+
+  .container-passos-final{
+      background-color: pink; 
+      bottom: 530px;
+  }
+
+  /*CONTAINER-IMAGENS-COLUNAS*/
+  
+  .container-imagens-colunas{
+    height: 500px;
+     background-color:	#556B2F; 
+  }
+
+  /*CONTAINER-FOOTER*/
+
+  .paragrafo-footer{
+    width: 40%;
+    height: 45px;
+    background-color:turquoise; 
+    font-size: 0.5em;
+    margin-left: 75px;
+    padding-top:10px;
+    }
+    
+  .container-footer{
+    width: 100%;
+    height: 50px;
+    background-color: #9767A9;
+  }
+    .direcoes-footer{
+      width: 20%;
+      height: 60px;
+      background-color:	#7B68EE; 
+      margin-right: 75px;
+      display: flex;
+      font-size: 0.6em;
+      align-items: center;
+    }
+    
+    .imagem-seta{
+      width: 10%;
+      height: 20px;
+    }
+  
+}
+
+@media(max-width: 1000px){
+/*CONTAINER-PASSOS*/
+
+  .container-passos{
+    background-color: #40E0D0; 
+    height:2250px;
+  }
+
+  .coluna-passos{
+    background-color: #00BFFF; 
+    height:2250px;
+  }
+
+  .imagem-passos{
+    width: 100%;
+    height: 50%;
+  }
+  
+  .h3-container{
+    font-size: 1.5em;
+  }
+
+  .imagem-passos-final{
+    height: 60px;
+  }
+
+  /*bottons*/
+
+  .container-passos-terceiro{
+    bottom: 270px;
+  }
+
+  .container-passos-quarto{
+    top: 0px;
+  }
+
+  .container-passos-quinto{
+    bottom: 400px;
+  }
+  .container-passos-sexto{
+    bottom: 250px;
+  }
+  .container-passos-setimo{
+    bottom: 650px;
+  }
+
+  .container-passos-final{
+      background-color: pink; 
+      bottom: 400px;
+  }
+
+}
+
+@media(max-width: 890px){
+  /*CONTAINER-PASSOS*/
+
+  .imagem-passos{
+    width: 100%;
+    height: 45%;
+  }
+
+  .h3-container{
+    font-size: 1.3em;
+  }
+
+  .imagem-passos-final{
+    height: 50px;
+  }
+
+  .container-passos-paragrafo{
+    font-size: 0.7em;
+  }
+
+  /*bottons*/
+
+  .container-passos-terceiro{
+    bottom: 300px;
+  }
+
+  .container-passos-quarto{
+    top: 0px;
+  }
+
+  .container-passos-quinto{
+    bottom: 600px;
+  }
+  .container-passos-sexto{
+    bottom: 300px;
+  }
+  .container-passos-setimo{
+    bottom: 850px;
+  }
+
+  .container-passos-final{
+      background-color: pink; 
+      bottom: 600px;
+  }
+
+  .container-passos{
+    background-color: #40E0D0; 
+    height:2000px;
+  }
+
+  .coluna-passos{
+    background-color: #00BFFF; 
+    height:2000px;
+  }
+
+  .container-imagens-colunas{
+    height: 450px; 
+  }
+
+}
+
+@media(max-width:850px){
+
+  .h3-container{
+    font-size: 1.2em;
+  }
+  .container-passos-paragrafo{
+    font-size: 0.6em;
+  }
+}
+
+
+
+/*mobile*/
+
+@media(max-width: 760px){
+  .container-passos{
+    width:100%;
+    height: 4800px;
+    background-color: #40E0D0; 
+  }
+  
+  .coluna-passos{
+    width: 85%;
+    height: 4800px;
+    background-color: #00BFFF; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .container-passos-primeiro{
+    width: 80%;
+    height: 700px;
+    background-color: yellow; 
+    position: relative;
+    bottom: 0px;
+  }
+
+  .container-passos-segundo{
+    width: 80%;
+    height: 700px;
+    background-color: yellow; 
+    top: 0px;
+  }
+
+  .container-passos-terceiro{
+    width: 80%;
+    height: 650px;
+    background-color: yellow; 
+  }
+
+  .container-passos-quarto{
+    width: 80%;
+    height: 650px;
+    background-color: yellow; 
+  }
+
+  .container-passos-quinto{
+    width: 80%;
+    height: 650px;
+    background-color: yellow; 
+    position: relative;
+  }
+
+  .container-passos-sexto{
+    width: 80%;
+    height: 650px;
+    background-color: yellow; 
+    position: relative;
+  }
+
+  .container-passos-setimo{
+    width: 80%;
+    height: 650px;
+    background-color: yellow; 
+    position: relative;
+  }
+
+  .container-passos-final{
+    width: 80%;
+    height: 100px;
+    background-color: pink; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .h3-container{
+    font-size: 1.4em;
+  }
+  .container-passos-paragrafo{
+    font-size: 0.8em;
+  }
+
+    /*bottons*/
+
+    .container-passos-terceiro{
+      bottom:0px;
+    } 
+  
+    .container-passos-quarto{
+      top: 0px;
+    }
+  
+    .container-passos-quinto{
+      bottom: 0px;
+    }
+    .container-passos-sexto{
+      bottom: 0px;
+    }
+    .container-passos-setimo{
+      bottom: 0px;
+    }
+  
+    .container-passos-final{
+        background-color: pink; 
+        bottom: 0px;
+    } 
+
+    /*CONTAINER-PASSOS-TEXTO*/
+
+    .conteiner-passos-texto{
+      width: 80%;
+      height: 60vh;
+      background-color: #9767A9;
+      color:white;
+      padding: 15px;
+      margin: auto;
+      position: relative;
+      bottom: 160px;
+    }
+
+    .conteiner-passos-texto-segundo{
+      width: 80%;
+      height: 40%;
+      background-color: #9767A9;
+      color:white;
+      padding: 15px;
+      margin: auto;
+      position: relative;
+      bottom: 130px; 
+    }
+
+    .conteiner-passos-texto-terceiro{
+      width: 80%;
+      height: 35%;
+      background-color: #9767A9;
+      color:white;
+      padding: 15px;
+      margin: auto;
+      position: relative;
+      bottom: 60px; 
+    }
+
+    .conteiner-passos-texto-quarto{
+      width: 80%;
+      height: 35%;
+      background-color: #9767A9;
+      color:white;
+      padding: 15px;
+      margin: auto;
+      position: relative;
+      bottom: 60px; 
+    }
+
+    .conteiner-passos-texto-quinto{
+      width: 80%;
+      height: 35%;
+      background-color: #9767A9;
+      color:white;
+      padding: 15px;
+      margin: auto;
+      position: relative;
+      bottom: 60px;
+    }
+
+    .conteiner-passos-texto-sexto{
+      width: 80%;
+      height: 35%;
+      background-color: #9767A9;
+      color:white;
+      padding: 15px;
+      margin: auto;
+      position: relative;
+      bottom: 60px;
+    }
+
+    .conteiner-passos-texto-setimo{
+      width: 80%;
+      height: 30%;
+      background-color: #9767A9;
+      color:white;
+      padding: 15px;
+      margin: auto;
+      position: relative;
+      bottom: 60px;
+    }
+
+    .imagem-passos{
+      width: 100%;
+      height: 70%;
+    }
+
+    /*CONTAINER-IMAGENS-COLUNAS*/
+
+    .container-imagens-colunas{
+      height: 400px;
+    }
+
+    /*CONTAINER-FOOTER*/
+
+    .paragrafo-footer{
+      height: 35px;
+      font-size: 0.4em;
+      margin-left: 53px;
+      padding-top:10px;
+      }
+      
+    .container-footer{
+      height: 35px;
+    }
+      .direcoes-footer{
+        width: 25%;
+        height: 30px;
+        background-color:	#7B68EE; 
+        margin-right: 55px;
+        display: flex;
+        font-size: 0.6em;
+        align-items: center;
+      }
+      
+      .imagem-seta{
+        width: 10%;
+        height: 20px;
+      }
+}
+
+@media(max-width: 595px){
+
+  /*CONTAINER-PASSOS*/
+  .h3-container{
+    font-size: 1.1em;
+  }
+  .container-passos-paragrafo{
+    font-size: 0.7em;
+  }
+
+  .imagem-passos{
+    height: 60%;
+  }
+
+  /*CONTAINER-FOOTER*/
+
+  .container-imagens-colunas{
+    height: 350px;
+  }
+
 }
