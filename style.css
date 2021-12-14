@@ -1514,6 +1514,7 @@ font-size: 0.8em;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    
   }
 
   .container-colunas-primeira{
@@ -1654,10 +1655,26 @@ font-size: 0.8em;
 
   .mobile-setas-redes-sociais{
     width:85%;
-    height: 35px;
+    height: 150px;
     background-color: black;
     display: flex;
     margin: auto;
+   align-items: center;
+   justify-content: space-between;
+  }
+
+  .redes-sociais{
+    width: 40%;
+    height: 40px;
+    background-color:papayawhip;
+  }
+
+  .setas{
+    width: 40%;
+    height: 30px;
+    background-color:plum;
+    display: flex;
+    justify-content: flex-end;
   }
 
   /*FOOTER*/
