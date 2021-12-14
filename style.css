@@ -481,6 +481,14 @@ height: 25%;
   height: 70%
 }
 
+.mobile-setas-redes-sociais{
+  display: none;
+} 
+
+.container-imagens-colunas-mobile{
+  display: none;
+}
+
 .container-footer{
   width: 100%;
   height: 70px;
@@ -1227,13 +1235,13 @@ font-size: 0.8em;
 @media(max-width: 760px){
   .container-passos{
     width:100%;
-    height: 4800px;
+    height: 4600px;
     background-color: #40E0D0; 
   }
   
   .coluna-passos{
     width: 85%;
-    height: 4800px;
+    height: 4600px;
     background-color: #00BFFF; 
     margin: auto;
     display: flex;
@@ -1285,7 +1293,7 @@ font-size: 0.8em;
 
   .container-passos-setimo{
     width: 80%;
-    height: 650px;
+    height: 500px;
     background-color: yellow; 
     position: relative;
   }
@@ -1401,7 +1409,7 @@ font-size: 0.8em;
 
     .conteiner-passos-texto-setimo{
       width: 80%;
-      height: 30%;
+      height: 35vh;
       background-color: #9767A9;
       color:white;
       padding: 15px;
@@ -1463,10 +1471,210 @@ font-size: 0.8em;
     height: 60%;
   }
 
-  /*CONTAINER-FOOTER*/
+  /*CONTAINER-IMAGENS-COLUNAS*/
 
   .container-imagens-colunas{
-    height: 350px;
+    height: 330px;
+    padding-bottom: 25px;
   }
+
+  /*CONTAINER-FOOTER*/
+
+  .paragrafo-footer{
+
+    font-size: 0.4em;
+    margin-left: 45px;
+
+    }
+    
+  .container-footer{
+    height: 30px;
+  }
+  .direcoes-footer{
+    width: 30%;
+    margin-right: 45px;
+    }
+
+}
+
+@media(max-width: 505px){
+
+  .container-imagens-colunas{
+    display: none;
+  }
+
+/*CONTAINER-COLUNAS*/
+
+  .container-imagens-colunas-mobile{
+    width: 100%;
+    height: 900px;
+    background-color: orange;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container-colunas-primeira{
+    width: 85%;
+    height: 300px;
+    background-color:	#008080;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .coluna-mae-primeira{
+    width: 45%;
+    height: 100%;
+    background-color: 	#EE82EE;
+  }
+  
+  .imagem-colunas-mobile-primeira{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .coluna-mae-segunda{
+    width: 50%;
+    height: 100%;
+    background-color:	#C71585;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .coluna-filha-primeira{
+    width: 100%;
+    height: 38%;
+    background-color:	#DB7093;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .imagem-colunas-mobile-segunda{
+   width: 48%;
+   height: 100%;
+  }
+  
+  .imagem-colunas-mobile-terceira{
+    width: 48%;
+    height: 100%;
+  }
+  
+  .coluna-filha-segunda{
+  width: 100%;
+  height: 58%;
+  background-color: #FF69B4;
+  }
+  
+  .imagem-colunas-mobile-quarta{
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+  .container-colunas-segunda{
+    width: 85%;
+    height: 200px;
+    background-color:	#008B8B;
+  }
+
+  .imagem-colunas-mobile-quinta{
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+  .container-colunas-terceira{
+    width: 85%;
+    height: 350px;
+    background-color:#20B2AA;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+  
+  .coluna-mae-quarta{
+    width: 28%;
+    height:100%;
+    background-color: 	#F08080;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .imagem-colunas-mobile-sexta{
+    width: 100%;
+    height: 68%;
+  }
+ .imagem-colunas-mobile-setima{
+  width: 100%;
+  height: 28%;
+}
+
+
+  .coluna-mae-quinta{
+    width: 28%;
+    height: 100%;
+    background-color: 	#CD5C5C;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .imagem-colunas-mobile-oitava{
+    width: 100%;
+    height: 68%;
+  }
+
+  .imagem-colunas-mobile-nona{
+    width: 100%;
+    height: 28%;
+  }
+
+
+  .coluna-mae-sexta{
+    width: 38%;
+    height: 100%;
+    background-color: 	#FFB6C1;
+  }
+
+  .imagem-colunas-mobile-decima{
+    width: 100%;
+    height: 100%;
+  }
+
+  /*SETAS*/
+
+  .mobile-setas-redes-sociais{
+    width:85%;
+    height: 35px;
+    background-color: black;
+    display: flex;
+    margin: auto;
+  }
+
+  /*FOOTER*/
+
+  .paragrafo-footer{
+    height: 30px;
+    width: 60%;
+    font-size: 0.5em;
+    margin-left: 38px;
+    }
+    
+  .container-footer{
+    height: 30px;
+  }
+    .direcoes-footer{
+      display: none;
+
+    }
 
 }
